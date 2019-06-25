@@ -1,0 +1,7 @@
+<div *ngFor='let user of users$' style="text-align:center">
+  <h2> {{ user.name }} {{ user.id }} </h2>
+  <p>{{ user.email }}</p>
+ </div>
+<!-- Aqui estou utilizando a diretiva ngFor 
+  para percorrer a lista de objetos cntida na variável "users$" 
+que está sendo montada no nosso arquivo TS (app.component.ts)-->
